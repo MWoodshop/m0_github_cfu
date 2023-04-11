@@ -1,0 +1,11 @@
+# Git commands
+    - git init: One time only: initialize the repository
+    - git add <filename>: Add changes to the staging area
+    - git commit -m "Message here": Commit changes
+    - git status: Check the status
+    - get diff: Check the changes
+    - git clone <SSH Key>: Clones a repo to a local machine.
+    - git log --oneline: Check the log to GitHub
+    - git remote add origin git@github.com:USERNAME/REPO_NAME.git: This command tells the local repository to set the remote repository to this address. We refer to it as the origin.
+    - git branch -M main: Defines the default branch as main. You do not need to do this if you have already configured Git to name the default branch main.
+    - git push: Send your committed changes to a remote repository on GitHub.com.
